@@ -1,0 +1,4 @@
+.safe-blur {
+  filter: blur(6px);
+  transition: filter 0.2s;
+}
