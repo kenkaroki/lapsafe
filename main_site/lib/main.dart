@@ -4,6 +4,7 @@ import 'package:main_site/screens/home/home.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
 
   Future<bool> checkIsLoggedIn() async {
     final prefs = await SharedPreferences.getInstance();
-    return prefs.getBool('repeat') ?? false;
+    return prefs.getBool('isLoggedIn') ?? false;
   }
 
   @override
