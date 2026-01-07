@@ -11,13 +11,13 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       return;
     }
 
-    fetch("http://localhost:8000/process_content/process_text", {
+    fetch("https://lapsafe.onrender.com/process_content/process_text", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         text: message.text,
         modes: { sexualcontent: true },
-        user_id: 'kenkaroki92@gmail.com'
+        user_id: "kenkaroki92@gmail.com",
       }),
     })
       .then((res) => res.json())

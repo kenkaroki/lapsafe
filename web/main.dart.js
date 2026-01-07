@@ -75095,7 +75095,7 @@ agK(a,b){var s=0,r=A.R(t.a),q,p=this,o,n,m
 var $async$ii=A.S(function(c,d){if(c===1)return A.O(d,r)
 while(true)switch(s){case 0:o=t.N
 s=3
-return A.T(A.atD(A.f6("http://localhost:8000/login"),B.bb.DO(A.ac(["username",a,"password",b],o,o),null),p.a),$async$ii)
+return A.T(A.atD(A.f6("https://lapsafe.onrender.com/login"),B.bb.DO(A.ac(["username",a,"password",b],o,o),null),p.a),$async$ii)
 case 3:n=d
 m=B.bb.wn(A.amQ(A.amt(n.e)).ek(n.w),null)
 if(n.b!==200)throw A.i(A.dH(J.eL(m,"message")))
@@ -75109,7 +75109,7 @@ UA(a,b){var s=0,r=A.R(t.H),q=this,p,o
 var $async$k5=A.S(function(c,d){if(c===1)return A.O(d,r)
 while(true)switch(s){case 0:p=t.N
 s=2
-return A.T(A.atD(A.f6("http://localhost:8000/signup"),B.bb.DO(A.ac(["username",a,"password",b],p,p),null),q.a),$async$k5)
+return A.T(A.atD(A.f6("https://lapsafe.onrender.com/signup"),B.bb.DO(A.ac(["username",a,"password",b],p,p),null),q.a),$async$k5)
 case 2:o=d
 if(o.b!==201)throw A.i(A.dH(J.eL(B.bb.wn(A.amQ(A.amt(o.e)).ek(o.w),null),"message")))
 return A.P(null,r)}})
@@ -75119,7 +75119,7 @@ TG(a){var s=0,r=A.R(t.P7),q,p,o
 var $async$tw=A.S(function(b,c){if(b===1)return A.O(c,r)
 while(true)switch(s){case 0:p=t.N
 s=3
-return A.T(A.aGT(A.f6("http://localhost:8000/get_reports/"+a),A.ac(["Content-Type","application/json"],p,p)),$async$tw)
+return A.T(A.aGT(A.f6("https://lapsafe.onrender.com/get_reports/"+a),A.ac(["Content-Type","application/json"],p,p)),$async$tw)
 case 3:o=c
 if(o.b!==200){q=A.d([],t.X6)
 s=1
