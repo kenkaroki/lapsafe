@@ -8,7 +8,7 @@ dotenv.load_dotenv()
 
 # client = InferenceClient(
 #     provider="hf-inference",
-#     api_key="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",
+#     api_key="",
 # )
 
 # 1. Initialize the Client
